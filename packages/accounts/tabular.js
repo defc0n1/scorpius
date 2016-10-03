@@ -1,13 +1,13 @@
-Tabular = null;
-
-if (Package['nicolaslopezj:tabular-materialize']) {
-  Tabular = Package['nicolaslopezj:tabular-materialize'].Tabular;
+"use strict";
+var aldeed_tabular_1 = require('meteor/aldeed:tabular');
+var meteor_1 = require('meteor/meteor');
+var Tabular = null;
+if (meteor_1.Package['nicolaslopezj:tabular-materialize']) {
+    aldeed_tabular_1.Tabular = meteor_1.Package['nicolaslopezj:tabular-materialize'].Tabular;
 }
-
-if (Package['aldeed:tabular']) {
-  Tabular = Package['aldeed:tabular'].Tabular;
+else if (meteor_1.Package['aldeed:tabular']) {
+    aldeed_tabular_1.Tabular = meteor_1.Package['aldeed:tabular'].Tabular;
 }
-
-if (!Tabular) {
-  throw new Meteor.Error('scorpius', 'You must install tabular to use this package');
+else {
+    throw new meteor_1.Meteor.Error('scorpius.accounts', 'You must install tabular to use this package');
 }
