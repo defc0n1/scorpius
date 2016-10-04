@@ -19,7 +19,6 @@ Package.onUse(function(api) {
         'modules',
         'underscore',
         'reactive-var',
-        'reactive-dict',
         
         'barbatus:typescript@0.4.1',
         'blaze-html-templates@1.0.1'

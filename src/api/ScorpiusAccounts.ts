@@ -1,6 +1,8 @@
 'use strict';
 
-export default class ScorpiusAccounts {
+import { ScorpiusConfig } from './ScorpiusConfig';
+
+export class ScorpiusAccounts {
     constructor() {
         
     }
