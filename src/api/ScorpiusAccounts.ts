@@ -1,5 +1,6 @@
+'use strict';
 
-export class ScorpiusAccounts {
+export default class ScorpiusAccounts {
     constructor() {
         
     }

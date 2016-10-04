@@ -15,9 +15,11 @@ Package.onUse(function(api) {
     api.versionsFrom('1.4.1');
     
     api.use([
-        'barbatus:typescript@0.4.0',
-        'blaze-html-templates@1.0.1',
-        'ecmascript@0.1.6'
+        'ecmascript',
+        'modules',
+        
+        'barbatus:typescript@0.4.1',
+        'blaze-html-templates@1.0.1'
     ]);
     
     api.mainModule('index.ts');

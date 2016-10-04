@@ -1,9 +1,9 @@
-
+'use strict';
 
 /**
  * @type class
  */
-export class ScorpiusAttributes {
+export default class ScorpiusAttributes {
     constructor() {
         
     }

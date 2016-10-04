@@ -1,4 +1,3 @@
-
-import { ScorpiusConfig } from './ScorpiusConfig';
-import { ScorpiusAttributes } from './ScorpiusAttributes';
-import { ScorpiusAccounts } from './ScorpiusAccounts';
+export * from './ScorpiusConfig';
+export * from './ScorpiusAccounts';
+export * from './ScorpiusConfig';
