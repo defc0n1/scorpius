@@ -6,20 +6,23 @@
  */
 export const CoreConfig: Object = {
     app: {
-        name: 'My Scorpius Application',
+        name: 'Scorpius App',
         version: '0.1.0',
-        framework: 'materialize'
+        theme: 'materialize'
     },
     accounts: {
         
     },
     attributes: {
-        fileAttribute: {
+        file: {
             
         },
-        imageAttribute: {
+        image: {
             
         },
+        map: {
+            
+        }
         
     },
     collections: {
@@ -28,11 +31,11 @@ export const CoreConfig: Object = {
     dashboards: {
         
     },
-    fileCollection: {
-        
-    },
     fileSystem: {
         providers: {
+            local: {
+                
+            },
             s3: {
                 
             },
@@ -58,15 +61,7 @@ export const CoreConfig: Object = {
         }
     },
     theme: {
-        materialize: {
-            
-        },
-        bootstrap: {
-            
-        },
-        foundation: {
-            
-        }
+        
     },
     pages: {
         

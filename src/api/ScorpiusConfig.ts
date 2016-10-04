@@ -1,7 +1,7 @@
 'use strict';
 
 import { _ } from 'meteor/underscore';
-import { CoreConfig } from './lib/CoreConfig';
+import { CoreConfig } from './lib/config/';
 
 /**
  * ScorpiusConfig class controls the configuration of the Scorpius Framework.
