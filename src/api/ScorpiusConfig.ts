@@ -1,11 +1,12 @@
 'use strict';
 
 /**
- * ScorpiusConfig class, used to pass configuration options to your project.
- * @type class
+ * ScorpiusConfig class controls the configuration of the Scorpius Framework.
+ * Utilize this by instantiating a new Scorpius Config item and passing default params.
+ * 
  */
 export class ScorpiusConfig {
-    constructor () {
-        
+    constructor (options: Object) {
+         
     }
 };
