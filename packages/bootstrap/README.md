@@ -1,4 +1,4 @@
-# Scorpius Bootstrap
+# Scorpius Bootstrap `Deprecated`
 
 ![Scorpius][1]
 
