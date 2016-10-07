@@ -1,4 +1,4 @@
-# Scorpius Materialize Admin Only
+# Scorpius Materialize Admin Only `Deprecated`
 
 ![Scorpius][1]
 

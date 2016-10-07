@@ -1,5 +1,6 @@
 <template name="scorpiusMaterializeLayout">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  {{> onlyMaterialize_libraries }}
+
   <div class="scorpius-materialize-admin">
     <div class="sidebar">
       {{# if dictionaryReady }}
@@ -21,6 +22,8 @@
 </template>
 
 <template name="scorpiusMaterializeOutAdminLayout">
+  {{> onlyMaterialize_libraries }}
+
   <div class="container scorpius-out-admin">
     <div class="row">
       <div class="col s12 m8 l6 offset-m2 offset-l3">
@@ -37,6 +40,11 @@
       background-color: #2196F3;
     }
   </style>
+</template>
+
+<template name="onlyMaterialize_libraries">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </template>
 
 <template name="scorpiusMaterializeContentContainer">

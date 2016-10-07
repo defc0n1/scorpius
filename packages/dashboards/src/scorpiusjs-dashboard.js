@@ -31,10 +31,10 @@ if (Options.get('showDashboardTab') == true) {
  * See ReactiveTemplates documentation for how to override the default
  * dashboard template. This typically is not neeed.
  */
-ReactiveTemplates.request('scorpiusDashboard', 'scorpius_dashboard_bootstrap');
+ReactiveTemplates.request('scorpiusDashboard', 'scorpius_dashboard_materialize');
 
-if (_.has(Package, 'scorpiusjs:materialize')) {
-	ReactiveTemplates.set('scorpiusDashboard','scorpius_dashboard_materialize');
+if (_.has(Package, 'scorpiusjs:bootstrap')) {
+	ReactiveTemplates.set('scorpiusDashboard','scorpius_dashboard_bootstrap');
 }
 
 /**
@@ -47,10 +47,10 @@ if (_.has(Package, 'scorpiusjs:materialize')) {
  * See ReactiveTemplates documentation for informatation on how to override the
  * default widget. NOTE: this is not the same as registering a new widget.
  */
-ReactiveTemplates.request('scorpiusDashboardWidget', 'scorpius_dashboard_default_widget_bootstrap');
+ReactiveTemplates.request('scorpiusDashboardWidget', 'scorpius_dashboard_default_widget_materialize');
 
-if (_.has(Package, 'scorpiusjs:materialize')) {
-	ReactiveTemplates.set('scorpiusDashboardWidget','scorpius_dashboard_default_widget_materialize');
+if (_.has(Package, 'scorpiusjs:bootstrap')) {
+	ReactiveTemplates.set('scorpiusDashboardWidget','scorpius_dashboard_default_widget_bootstrap');
 }
 
 /**

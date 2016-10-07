@@ -1,4 +1,4 @@
-# Scorpius Legacy Scope `Deprecated`
+# Scorpius Legacy Scope
 
 ![Scorpius][1]
 
